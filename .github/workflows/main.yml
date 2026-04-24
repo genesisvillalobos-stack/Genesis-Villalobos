@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Dunkin' Strategy Tycoon: El Límite Vertical</title>
+<script src="https://cdn.tailwindcss.com"></script>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Quicksand:wght@400;700&display=swap');
+
+body {
+font-family: 'Quicksand', sans-serif;
+background-color: #f3f4f6;
+}
+
+.dunkin-pink { color: #E11383; }
+.bg-dunkin-pink { background-color: #E11383; }
+.dunkin-orange { color: #FF671F; }
+.bg-dunkin-orange { background-color: #FF671F; }
+
+.header-font { font-family: 'Fredoka One', cursive; }
+
+.card-hover:hover {
+transform: translateY(-5px);
+transition: all 0.3s ease;
+box-shadow: 0 10px 20px rgba(225, 19, 131, 0.2);
+}
+
+.game-screen {
+display: none;
+animation: fadeIn 0.5s;
+}
+
+@keyframes fadeIn {
+from { opacity: 0;
+
